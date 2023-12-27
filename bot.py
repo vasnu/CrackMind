@@ -3,7 +3,7 @@
 
 import os
 import logging
-from config import Config
+from config import Config.BOT_TOKEN,
 from pyrogram import Client as LazyDeveloper
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
